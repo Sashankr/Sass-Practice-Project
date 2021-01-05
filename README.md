@@ -10,3 +10,6 @@
 
 * Partials
 
+### Project Link  
+
+[Sass Project](https://sashankr.github.io/Sass-Practice-Project/dist/index.html)
