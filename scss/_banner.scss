@@ -1,0 +1,20 @@
+$banner-heading-size : 5rem;
+$banner-font : 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+$banner-text-color: #f00;
+
+@mixin flexbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#banner{
+@include flexbox();
+height: 80vh;
+  h2{
+    font-size: $banner-heading-size;
+    font-family: $banner-font;
+    color: $banner-text-color;
+    text-shadow: 2px 1px 1px #000;
+  }
+}
