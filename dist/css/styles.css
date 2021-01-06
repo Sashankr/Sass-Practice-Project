@@ -80,7 +80,7 @@ header nav ul li a:hover {
 
 body {
   background-color: linear-gradient(to right, #1d2b64, #f8cdda);
-  background: url("/assets/images/gym.jpg");
+  background: url("../../assets/images/gym.jpg");
   background-size: cover;
   height: 100vh;
 }
